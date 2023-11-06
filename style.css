@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  #loginPage, #optionsPage, #registerPage, #consultPage, #adminPage {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #4dcfbe;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #fff6f6;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  button:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:active {
+    transform: translateY(2px);
+  }
+  
+  <div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <button class="btn btn-primary btn-block" onclick="showRegisterPage()">Registrar</button>
+    </div>
+    <div class="col-md-3">
+      <button class="btn btn-primary btn-block" onclick="showConsultPage()">Consultar</button>
+    </div>
+    <div class="col-md-3">
+      <button class="btn btn-primary btn-block" onclick="showAdminPage()">Administrar</button>
+    </div>
+    <div class="col-md-3">
+      <button class="btn btn-danger btn-block" onclick="logout()">Cerrar Sesión</button>
+    </div>
+  </div>
+</div>
